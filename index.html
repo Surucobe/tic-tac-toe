@@ -7,17 +7,24 @@
   <title>Tic-Tac-toe</title>
 </head>
 <body>
-  <div class="gameboard">
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
-    <div class="gameboard-square"></div>
+  <div class="score-div player-X">
+    X <div class="score-X">0</div>
   </div>
+  <div class="score-div player-O">
+    O <div class="score-O">0</div>
+  </div>
+  <div class="gameboard">
+    <div class="gameboard-square top left"></div>
+    <div class="gameboard-square top mid"></div>
+    <div class="gameboard-square top right"></div>
+    <div class="gameboard-square middle left"></div>
+    <div class="gameboard-square middle mid"></div>
+    <div class="gameboard-square middle right"></div>
+    <div class="gameboard-square bot left"></div>
+    <div class="gameboard-square bot mid"></div>
+    <div class="gameboard-square bot right"></div>
+  </div>
+  <button class="reset">Reset</button>
   <script src="./index.js"></script>
 </body>
 </html>
